@@ -1,3 +1,14 @@
+:root{
+    --main-background-color: gray;
+}
+
+.nav-ul {
+    color:var(--decorative-color) ;
+}
+li { 
+    list-style-type: none;
+}
+
 a[href="#"][target="_self"] {
     text-decoration: none;
     color: black;
@@ -26,13 +37,6 @@ a[href="#"][target="_blank"] {
 .paragraf {
     color: #FFFFFF;
     margin: 20px;
-}
-
-.nav-ul {
-    color:var(--decorative-color) ;
-}
-li { 
-    list-style-type: none;
 }
 
 .main {
