@@ -69,11 +69,12 @@ a[href="#"][target="_blank"] {
 
 .footer {
     background-color: #2F303A;
+    padding: 30px, ;
 }
 
 .paragraf {
     color: #FFFFFF;
-    margin: 20px;
+    margin: 10px;
 }
 
 .footer_navigation--first {
@@ -81,5 +82,6 @@ a[href="#"][target="_blank"] {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto
+    margin: 0 auto;
+    margin: 5px;
 }
