@@ -29,17 +29,57 @@ a[href="#"][target="_blank"] {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin: 0 auto
 }
 
+.main_title-text {
+    text-align: center;
+}
+
+.main_first--section {
+    display: flex;
+}
+
+.main_second-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.main_picturecard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_third-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_third-title {
+    text-align: center;
+}
+
+.main_third-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer {
-    height: 252px;
-    width: 1600px;
     background-color: #2F303A;
-    max-width: 1600px;
 }
 
 .paragraf {
     color: #FFFFFF;
     margin: 20px;
+}
+
+.footer_navigation--first {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto
 }
