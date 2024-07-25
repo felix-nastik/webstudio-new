@@ -39,12 +39,7 @@ a[href="#"][target="_blank"] {
     margin: 20px;
 }
 
-.main {
-    height: 600px;
-    width: 1600px;
-    background-color: #2F303A;
-    max-width: 1600px;
-}
+
 
 body { 
     font-family: "Roboto", sans-serif;
