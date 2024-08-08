@@ -7,31 +7,36 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div>
-                <img src="/images/WebStudio2.png" alt="" class="header_image">
-            </div>
-            <div>
+    <header class="header">
+        <div class="header_container">
+            <div class="header_left--side">
+                <img src="/images/WebStudio2.png" alt="" class="header_left--image">
                 <ul class="header_navigation">
-                    <li><a href="#" target="_self" class="header_navigation--item">Студія</a></li>
-                    <li><a href="#" target="_blank" class="header_navigation--item">Портфоліо</a></li>
-                    <li><a href="#" target="_self" class="header_navigation--item">Контакти</a></li>
-                    <li><a href="#" target="_blank" class="header_navigation--item">info@devstudio.com</a></li>
-                    <li><a href="#" target="_self" class="header_navigation--item">+380 096 111 11</a></li>
+                    <li class="header_navigation--items"><a href="#" target="_self">Студія</a></li>
+                    <li class="header_navigation--items"><a href="#" target="_blank">Портфоліо</a></li>
+                    <li class="header_navigation--items"><a href="#" target="_self">Контакти</a></li>
                 </ul>
             </div>
-        </div>
+            <div class="header_right--side">
+                <address>
+                    <a href="#" target="_blank" class="header_right--link">info@devstudio.com</a>
+                    <a href="#" target="_self" class="header_right--link">+380 096 111 11</a>
+                </address>
+            </div>
     </header>
     <main class="main">
-        <div class="main_title-text">
-            <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button>Замовити послугу</button>
-        </div>
+        <section class="main_first--section">
+            <div class="main_container">
+                <div class="main_first--content">
+                    <h1 class="main_first--title">Ефективні рішення для вашого бізнесу</h1>
+                    <button class="main_first--btn">Замовити послугу</button>
+                </div>
+            </div>
+        </section>
         <div class="container">
             <section class="main_first-section">
                 <div class="main_textcard">
